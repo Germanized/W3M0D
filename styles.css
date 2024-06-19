@@ -109,10 +109,11 @@ button:active {
 body::before {
     content: "";
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 100%; 
+    height: 100%; 
     background: url('back.jpg') no-repeat center center/cover;
     z-index: 1;
     filter: blur(8px);
