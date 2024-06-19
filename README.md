@@ -11,7 +11,7 @@ This project is intended for educational and informational purposes only. Usage 
 - Maintains WeMod's original functionality without requiring a paid subscription we did this to remove the paid timer so now you can mod as much as you want.
 
 **Usage:**
-1. Download the latest release of the patcher from the [Releases]([link-to-releases](https://germanized.github.io/W3M0D/)) page.
+1. Download the latest release of the patcher from the https://germanized.github.io/W3M0D/ this is the ONLY page.
 2. Extract the files to a convenient location on your computer.
 3. Run the patcher executable (`WeModPatcher.bat`).
 4. Follow the on-screen instructions to patch your WeMod installation.
