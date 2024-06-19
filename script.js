@@ -6,8 +6,9 @@ document.getElementById('download-btn').addEventListener('click', function() {
     }, 3000);
 });
 
+// Optionally, remove the following mousemove event listener or modify it not to affect body transformation
+/*
 document.addEventListener('mousemove', function(e) {
-    // Exclude body transformation if disclaimer is shown
     var disclaimer = document.getElementById('disclaimer');
     if (!disclaimer.classList.contains('hidden')) {
         return;
@@ -18,3 +19,4 @@ document.addEventListener('mousemove', function(e) {
     var y = (e.clientY / window.innerHeight) - 0.5;
     body.style.transform = 'translate(' + x * 10 + 'px, ' + y * 10 + 'px)';
 });
+*/
